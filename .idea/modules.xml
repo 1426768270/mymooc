@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-sso/01-sso.iml" filepath="$PROJECT_DIR$/01-sso/01-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-sso/01-sso-same-domain/01-sso-same-domain.iml" filepath="$PROJECT_DIR$/01-sso/01-sso-same-domain/01-sso-same-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-sso/01-sso-same-father/01-sso-same-father.iml" filepath="$PROJECT_DIR$/01-sso/01-sso-same-father/01-sso-same-father.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymooc.iml" filepath="$PROJECT_DIR$/mymooc.iml" />
+    </modules>
+  </component>
+</project>
