@@ -7,7 +7,16 @@
         <option value="$PROJECT_DIR$/01-sso/pom.xml" />
         <option value="$PROJECT_DIR$/01-sso/01-sso-same-domain/pom.xml" />
         <option value="$PROJECT_DIR$/01-sso/01-sso-same-father/pom.xml" />
+        <option value="$PROJECT_DIR$/01-sso/01-sso-cross-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/04-email/pom.xml" />
+        <option value="$PROJECT_DIR$/05-qrcode/05-qrcode-qrcode/pom.xml" />
+        <option value="$PROJECT_DIR$/06-quartz/06-quartz-spring/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/05-qrcode/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

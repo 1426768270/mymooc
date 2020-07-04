@@ -10,18 +10,19 @@ import java.net.URL;
 
 /**
  * http工具类
- * @Author       LQ
- * @CreateDate   2020/7/3 19:15
- * @Version      1.0
+ *
+ * @Author LQ
+ * @CreateDate 2020/7/3 19:15
+ * @Version 1.0
  */
 public class HttpUtil {
 
-    public static  ResMessage doGet(String url,String cookieName,String cookieValue){
+    public static ResMessage doGet(String url, String cookieName, String cookieValue) {
         ResMessage resMessage = new ResMessage();
         HttpURLConnection httpURLConnection = null;
         URL targetUrl = null;
         try {
-            targetUrl = new URL(url+"?cookieName="+cookieName+"&cookieValue="+cookieValue);
+            targetUrl = new URL(url + "?cookieName=" + cookieName + "&cookieValue=" + cookieValue);
             httpURLConnection = (HttpURLConnection) targetUrl.openConnection();
             httpURLConnection.setRequestMethod("GET");
             httpURLConnection.connect();
@@ -32,7 +33,7 @@ public class HttpUtil {
 
             StringBuilder sb = new StringBuilder();
             String temp = null;
-            while ((temp=br.readLine())!=null){
+            while ((temp = br.readLine()) != null) {
                 sb.append(temp);
             }
 
@@ -43,12 +44,12 @@ public class HttpUtil {
             resMessage.setRespCode(resultJson.getString("respCode"));
             resMessage.setRespMsg(resultJson.getString("respMsg"));
             return resMessage;
-        }catch (Exception e){
+        } catch (Exception e) {
             resMessage.setRespCode("500");
             resMessage.setRespMsg("Cookie校验请求失败");
             return resMessage;
-        }finally {
-            if (httpURLConnection!=null){
+        } finally {
+            if (httpURLConnection != null) {
                 httpURLConnection.disconnect();
             }
         }

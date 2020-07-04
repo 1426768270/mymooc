@@ -3,8 +3,19 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-sso/01-sso.iml" filepath="$PROJECT_DIR$/01-sso/01-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-sso/01-sso-cross-domain/01-sso-cross-domain.iml" filepath="$PROJECT_DIR$/01-sso/01-sso-cross-domain/01-sso-cross-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-sso/01-sso-same-domain/01-sso-same-domain.iml" filepath="$PROJECT_DIR$/01-sso/01-sso-same-domain/01-sso-same-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-sso/01-sso-same-father/01-sso-same-father.iml" filepath="$PROJECT_DIR$/01-sso/01-sso-same-father/01-sso-same-father.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-json/02-json.iml" filepath="$PROJECT_DIR$/02-json/02-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-timer/03-timer.iml" filepath="$PROJECT_DIR$/03-timer/03-timer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-email/04-email.iml" filepath="$PROJECT_DIR$/04-email/04-email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-qrcode/05-qrcode.iml" filepath="$PROJECT_DIR$/05-qrcode/05-qrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-qrcode/05-qrcode-qrcode/05-qrcode-qrcode.iml" filepath="$PROJECT_DIR$/05-qrcode/05-qrcode-qrcode/05-qrcode-qrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-qrcode/05-qrcode-zxing/05-qrcode-zxing.iml" filepath="$PROJECT_DIR$/05-qrcode/05-qrcode-zxing/05-qrcode-zxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-quartz/06-quartz.iml" filepath="$PROJECT_DIR$/06-quartz/06-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-quartz/06-quartz-hello/06-quartz-hello.iml" filepath="$PROJECT_DIR$/06-quartz/06-quartz-hello/06-quartz-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-quartz/06-quartz-spring/06-quartz-spring.iml" filepath="$PROJECT_DIR$/06-quartz/06-quartz-spring/06-quartz-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-sso/09-sso-cross-domain.iml" filepath="$PROJECT_DIR$/01-sso/09-sso-cross-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymooc.iml" filepath="$PROJECT_DIR$/mymooc.iml" />
     </modules>
   </component>

@@ -4,7 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mooc</groupId>
     <artifactId>mymooc</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>02-json</module>
+        <module>03-timer</module>
+        <module>05-qrcode</module>
+        <module>05-qrcode</module>
+        <module>06-quartz</module>
+    </modules>
     <name>mymooc</name>
     <description>Demo project for Spring Boot</description>
 

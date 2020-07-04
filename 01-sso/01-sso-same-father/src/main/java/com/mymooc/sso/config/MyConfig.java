@@ -27,10 +27,11 @@ import java.util.Properties;
 public class MyConfig extends WebMvcConfigurerAdapter {
     /**
      * 配置视图解析器
+     *
      * @return
      */
     @Bean
-    public FreeMarkerViewResolver getFreeMarkerViewResolver(){
+    public FreeMarkerViewResolver getFreeMarkerViewResolver() {
         FreeMarkerViewResolver freeMarkerViewResolver = new FreeMarkerViewResolver();
 
         freeMarkerViewResolver.setOrder(1);
@@ -50,8 +51,10 @@ public class MyConfig extends WebMvcConfigurerAdapter {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
     }
+
     /**
      * 配置FASTJSON
+     *
      * @return
      */
     @Bean
@@ -73,10 +76,11 @@ public class MyConfig extends WebMvcConfigurerAdapter {
 
     /**
      * 配置FreeMarker
+     *
      * @return
      */
     @Bean
-    public FreeMarkerConfigurer getFreeMarkerConfigurer(){
+    public FreeMarkerConfigurer getFreeMarkerConfigurer() {
         FreeMarkerConfigurer freeMarkerConfigurer = new FreeMarkerConfigurer();
         freeMarkerConfigurer.setDefaultEncoding("UTF-8");
         freeMarkerConfigurer.setTemplateLoaderPath("classpath:/templates/");

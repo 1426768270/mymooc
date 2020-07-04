@@ -3,10 +3,10 @@ package com.mymooc.sso.util;
 import java.io.Serializable;
 
 /**
- * @Description     消息响应对象
- * @Author       LQ
- * @CreateDate   2020/7/3 19:07
- * @Version      1.0
+ * @Description 消息响应对象
+ * @Author LQ
+ * @CreateDate 2020/7/3 19:07
+ * @Version 1.0
  */
 public class ResMessage implements Serializable {
 

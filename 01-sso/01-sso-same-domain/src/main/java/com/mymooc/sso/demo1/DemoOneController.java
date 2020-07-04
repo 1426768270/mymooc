@@ -8,10 +8,10 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @Description   demo1的控制器
- * @Author       LQ
- * @CreateDate   2020/7/3 11:48
- * @Version      1.0
+ * @Description demo1的控制器
+ * @Author LQ
+ * @CreateDate 2020/7/3 11:48
+ * @Version 1.0
  */
 @Controller
 public class DemoOneController {
